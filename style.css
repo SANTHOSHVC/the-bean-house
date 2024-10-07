@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:roboto;
+    
+    }
+    
+    body{
+    background-color:#f8f4f3;
+    }
+    .heading{
+    text-align:center;
+    
+    }
+    .container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:80px;
+    width:100%;
+    position:realative;
+    background-color:#cbc3c1;
+    }
+    
+    
+    .Heading-content{
+    position:absolute;
+    right:5px;
+    line-height:120px;
+    }
+    .Heading-content a{
+    text-decoration:none;
+    padding:10px;
+    margin:20px;
+    color:black;
+    transition: 0.3s;
+    }
+    .Heading-content a:hover{
+    color:white;
+    background-color:#979190;
+    height:auto;
+    width:auto;
+    border-radius:10px;
+   
+    }
+    
+    .body-content{
+    position:absolute;
+    margin-top:500px;
+    
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+    }
+    .body-content ul{
+    display:flex;
+    justify-content: space-between;
+    
+    }
+    .body-content ul img{
+    height:120px;
+    width:80%;
+    border-radius:15px;
+    }
+     .body-content  ul li {
+    list-style-type:none;
+    
+    }
+    .body-content  ul li a{
+    margin:10px;
+     transition: 0.5s;
+    }
+    .body-content  ul li a:hover{
+    padding:10px;
+    margin-left:3px;
+    }
+    
+    
+    
+    .happy ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin-top:350px;
+    
+    }
+    .happy ul img {
+    height:120px;
+    width:80%;
+    border-radius:15px;
+   
+    margin:0 0 10px 0;
+    }
+    .happy ul li{
+    list-style-type:none;
+    }
+    .happy  ul li a{
+    margin:10px;
+     transition:0.5s;
+    }
+    .happy ul li a:hover{
+    padding:10px;
+    margin-left:3px;
+    
+    }
+    .offer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:190px;
+    position:absolute;
+    background-color:#edeaea;
+    height:50px;
+    width:60%;
+    padding:15px;
+    border-radius:15px;
+    }
+    .footer {
+    position:fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color:#e2dfde;
+      color: black;
+      display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height:60px;
+    }
+    .footer a{
+    text-decoration:none;
+    color:black;
+    }
+    .cofee{
+    position:absolute;
+    height:80px;
+    width:80px;
+    left:2px;
+    border-radius:50%;
+     }
